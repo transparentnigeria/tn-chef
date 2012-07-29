@@ -10,11 +10,11 @@ Prepare servers
 
 For web server
 
-`curl https://raw.github.com/kkdoo/chef-repo/master/knife/bootstrap-web.sh | bash`
+`curl https://raw.github.com/gist/3201851/07f7aa41f050f08e1678ca91be6d88492a7f963d/bootstrap-web.sh|bash`
 
 For database server
 
-`curl https://raw.github.com/kkdoo/chef-repo/master/knife/bootstrap-db.sh | bash`
+`curl https://raw.github.com/gist/3201846/2990b030983c239a845b8f6250dec98e0c1da139/bootstrap-db.sh|bash`
 
 Deploy application
 -------

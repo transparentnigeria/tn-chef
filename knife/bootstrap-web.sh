@@ -8,11 +8,11 @@ sudo apt-get -y upgrade
 
 sudo -E bash -c 'DEBIAN_FRONTEND=noninteractive apt-get -y install opscode-keyring chef git'
 
-sudo git clone git://github.com/kkdoo/chef-repo.git /var/chef-solo
+sudo git clone git://github.com/transparentnigeria/tn-chef.git /var/chef-solo
 cd /var/chef-solo
 sudo git submodule init
 sudo git submodule update
 
 sudo -E bash -c 'echo -e file_cache_path\ \"/tmp/chef-solo\"\\ncookbook_path\ \"/var/chef-solo/cookbooks\"\\nrole_path\ \"/var/chef-solo/roles\" > /etc/chef/solo.rb'
 
-sudo chef-solo -c /etc/chef/solo.rb -j https://raw.github.com/transparentnigeria/tn-chef/master/knife/tn-web.json?login=transparentnigeria&token=0b160876a82dea8296f5b2ee72825504
+sudo chef-solo -c /etc/chef/solo.rb -j https://raw.github.com/transparentnigeria/tn-chef/master/knife/tn-web.json
