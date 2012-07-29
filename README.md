@@ -19,6 +19,14 @@ For database server
 Deploy application
 -------
 
-To setup & start application
+To setup & start application at first time
 
-`bundle exec cap deploy:setup deploy:cold`
+`bundle exec cap staging deploy:setup deploy:update deploy:db_create deploy:start`
+
+For next time deploying
+
+`bundle exec cap staging deploy`
+
+To deploy and run pending migrations
+
+`bundle exec cap staging deploy:migrations`
