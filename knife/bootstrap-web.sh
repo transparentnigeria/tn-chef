@@ -15,4 +15,4 @@ sudo git submodule update
 
 sudo -E bash -c 'echo -e file_cache_path\ \"/tmp/chef-solo\"\\ncookbook_path\ \"/var/chef-solo/cookbooks\"\\nrole_path\ \"/var/chef-solo/roles\" > /etc/chef/solo.rb'
 
-sudo chef-solo -c /etc/chef/solo.rb -j https://raw.github.com/kkdoo/chef-repo/master/knife/tn-web.json
+sudo chef-solo -c /etc/chef/solo.rb -j https://raw.github.com/transparentnigeria/tn-chef/master/knife/tn-web.json?login=transparentnigeria&token=0b160876a82dea8296f5b2ee72825504
