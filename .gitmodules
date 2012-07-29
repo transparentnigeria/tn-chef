@@ -1,0 +1,24 @@
+[submodule "cookbooks/git"]
+	path = cookbooks/git
+	url = git://github.com/opscode-cookbooks/git.git
+[submodule "cookbooks/nginx"]
+	path = cookbooks/nginx
+	url = git://github.com/opscode-cookbooks/nginx.git
+[submodule "cookbooks/build-essential"]
+	path = cookbooks/build-essential
+	url = git://github.com/opscode-cookbooks/build-essential.git
+[submodule "cookbooks/runit"]
+	path = cookbooks/runit
+	url = git://github.com/opscode-cookbooks/runit.git
+[submodule "cookbooks/ohai"]
+	path = cookbooks/ohai
+	url = git://github.com/opscode-cookbooks/ohai.git
+[submodule "cookbooks/rvm"]
+	path = cookbooks/rvm
+	url = git://github.com/fnichol/chef-rvm.git
+[submodule "cookbooks/openssl"]
+	path = cookbooks/openssl
+	url = git://github.com/opscode-cookbooks/openssl.git
+[submodule "cookbooks/mysql"]
+	path = cookbooks/mysql
+	url = git://github.com/tinderfields/chef-mysql.git

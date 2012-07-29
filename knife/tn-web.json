@@ -1,0 +1,6 @@
+{
+  "chef_server": {
+    "server_url": "none"
+  },
+  "run_list": [ "role[base]","role[web]" ]
+}
